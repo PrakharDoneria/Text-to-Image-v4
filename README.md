@@ -28,7 +28,7 @@ axios.get('http://localhost:8000/?prompt=school%20teacher')
 ```python
 import requests
 
-response = requests.get('http://localhost:8000/', params={'prompt': 'hot school teacher'})
+response = requests.get('http://localhost:8000/', params={'prompt': 'school teacher'})
 data = response.json()
 print(data)
 ```
